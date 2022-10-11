@@ -15,7 +15,6 @@ namespace OOPChristmasPresent
         {
             presentsList.Add(present);
         }
-
         public int GetTotalPrice()
         {
             int sum = 0;
@@ -26,17 +25,14 @@ namespace OOPChristmasPresent
             }
             return sum;
         }
-
         public string Name
         {
             get { return name; }
         }
-
         public Person(string name)
         {
             this.name = name;
             this.presentsList = new List<ChristmasPresent>();
         }
-
     }
 }

@@ -10,7 +10,6 @@
             this.name = name;
             this.price = price;
         }
-
         public int Price { get { return price; } }
     }
 }

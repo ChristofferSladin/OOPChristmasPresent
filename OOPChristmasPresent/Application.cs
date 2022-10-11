@@ -8,8 +8,6 @@ namespace OOPChristmasPresent
 {
     internal class Application
     {
-
-
         public void Run()
         {
             var person1 = new Person("Christoffer");
@@ -19,7 +17,6 @@ namespace OOPChristmasPresent
             person1.AddPresent(new ChristmasPresent("SSD disk", 480));
             person2.AddPresent(new ChristmasPresent("Kaka", 300));
 
-
             var personer = new List<Person>();
             personer.Add(person1);
             personer.Add(person2);
@@ -28,13 +25,6 @@ namespace OOPChristmasPresent
             {
                 Console.WriteLine($"{person.Name} ska få julklappar för {person.GetTotalPrice()}");
             }
-
-            
-
-
-
         }
-
-        
     }
 }
